@@ -1,0 +1,144 @@
+#box { 
+    box-sizing: border-box;
+    border: 50px;
+padding: 10px;
+    border-color: black;
+    width: 30%;
+    height: 200px;
+   margin: 10px;
+    color: rgb(0, 13, 9);
+    background-color: rgb(161, 132, 234);
+    float: left;
+    overflow: scroll;
+  
+}
+.d1{
+    box-sizing: border-box;
+    width: 40%;
+    height: 30px;
+    background-color: blanchedalmond;
+    float: right;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+    
+#box1 { 
+    box-sizing: border-box;
+    border: 10px;
+    border-color: black;
+    width: 30%;
+    height: 200px;
+    margin: 15px;
+   padding: 10px;
+    color: rgb(0, 13, 9);
+    background-color: rgb(161, 132, 234);
+    float: left;
+    overflow: scroll;
+    position: relative;
+   
+
+
+}
+.d2{
+    box-sizing: border-box;
+    width: 40%;
+    height: 30px;
+    background-color: blanchedalmond;
+    float: right;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+#box2 { 
+    box-sizing: border-box;
+    border: 10px;
+    border-color: black;
+    width: 30%;
+    height: 200px;
+    margin: 15px;
+    padding: 10px;
+    color: rgb(0, 13, 9);
+    background-color: rgb(161, 132, 234);
+    float: left;
+    overflow: scroll;
+    position: relative;
+ 
+}
+.d3{
+    box-sizing: border-box;
+    width: 40%;
+    height: 30px;
+    background-color: blanchedalmond;
+    float: right;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    #box { 
+        
+        width: 80%;
+        height: 200px;
+        background-color: rgb(161, 132, 234);
+        
+       
+    }
+   
+        
+    #box1 { 
+        
+        width: 80%;
+        height: 200px;
+        background-color: rgb(238, 255, 142);
+    }
+    
+    
+    #box2 { 
+        
+        width: 80%;
+        height: 200px;
+        background-color: rgb(234, 132, 132);
+    }
+  
+    }
+    body {
+        text-align: center;
+        background-color: rgb(189, 232, 255);
+
+    }
+
+    
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+#box {
+    width: 45%;
+   background-color: coral;
+   float: left;
+   position: relative;
+  left: +10px ;
+  
+
+}
+#box1  {
+    width: 45%;
+   background-color: coral;
+   float: left;
+   position: relative;
+   left: 20px;
+
+}
+#box2 {
+    width: 80%;
+   background-color: coral;
+ clear: left;
+ position: relative;
+left: 10%;
+right: 10%;
+
+ height:200px ;
+
+}
+
+}
